@@ -1,0 +1,385 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BC05ED36-89BC-4D11-B067-8751804919DF}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>GestionAromaRazan</RootNamespace>
+    <AssemblyName>GestionAromaRazan</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AxShockwaveFlashObjects, Version=1.0.0.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="Guna.UI">
+      <HintPath>..\..\..\..\Guna.UI-Framework-Lib-master\Guna.UI WinForms\.net 4.0\Guna.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Guna.UI2">
+      <HintPath>..\..\..\..\Guna.UI-Framework-Lib-master\Guna.UI2 WinForms\.net 4.0\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="System.Web.Services, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controlleur\Controller-Client.cs" />
+    <Compile Include="Controlleur\controllerAuthentification.cs" />
+    <Compile Include="Controlleur\ControllerCategorie.cs" />
+    <Compile Include="Controlleur\ControllerCommande.cs" />
+    <Compile Include="Controlleur\ControllerDetailsFourni.cs" />
+    <Compile Include="Controlleur\ControllerFornisseur.cs" />
+    <Compile Include="Controlleur\ControllerProduit.cs" />
+    <Compile Include="Controlleur\Dashboards.cs" />
+    <Compile Include="Dal\DalSqlServeur.cs" />
+    <Compile Include="Modul\Add-Product.cs" />
+    <Compile Include="Modul\Categories.cs" />
+    <Compile Include="Modul\Client.cs" />
+    <Compile Include="Modul\Commande.cs" />
+    <Compile Include="Modul\DetailsFournisseurs.cs" />
+    <Compile Include="Modul\Fornisseurs.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Repport\PrintClient.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PrintClient.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Repport\printComandByNum.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>printComandByNum.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Repport\PrintCommand.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PrintCommand.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Repport\PrintFournisseurs.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PrintFournisseurs.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Repport\PrintProduis.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PrintProduis.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Repport\Views Repport\PrintCommande.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Repport\Views Repport\PrintCommande.Designer.cs">
+      <DependentUpon>PrintCommande.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Repport\Views Repport\ImprimmerFournisseur.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Repport\Views Repport\ImprimmerFournisseur.Designer.cs">
+      <DependentUpon>ImprimmerFournisseur.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Repport\Views Repport\ImprimmerProduit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Repport\Views Repport\ImprimmerProduit.Designer.cs">
+      <DependentUpon>ImprimmerProduit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Repport\PrintByCNIE.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PrintByCNIE.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Repport\PrintByIdentification.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PrintByIdentification.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Repport\PrintFournisseurByCnie.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PrintFournisseurByCnie.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Repport\Views Repport\PrintListClient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Repport\Views Repport\PrintListClient.Designer.cs">
+      <DependentUpon>PrintListClient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Afficher-Image.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Afficher-Image.Designer.cs">
+      <DependentUpon>Afficher-Image.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Ajouter-Client.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Ajouter-Client.Designer.cs">
+      <DependentUpon>Ajouter-Client.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\AjouterCommande.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\AjouterCommande.Designer.cs">
+      <DependentUpon>AjouterCommande.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\AjouterProduit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\AjouterProduit.Designer.cs">
+      <DependentUpon>AjouterProduit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Categorie.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Categorie.Designer.cs">
+      <DependentUpon>Categorie.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Dashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Dashboard.Designer.cs">
+      <DependentUpon>Dashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\DetailsFournisseur.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\DetailsFournisseur.Designer.cs">
+      <DependentUpon>DetailsFournisseur.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Fornisseur.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Fornisseur.Designer.cs">
+      <DependentUpon>Fornisseur.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ListeClients.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\ListeClients.Designer.cs">
+      <DependentUpon>ListeClients.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ListeFornisseurs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\ListeFornisseurs.Designer.cs">
+      <DependentUpon>ListeFornisseurs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ListeProduit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\ListeProduit.Designer.cs">
+      <DependentUpon>ListeProduit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\MenuGeneralAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\MenuGeneralAdmin.Designer.cs">
+      <DependentUpon>MenuGeneralAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControllerDeisng.cs" />
+    <Compile Include="Views\Autontification.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Autontification.Designer.cs">
+      <DependentUpon>Autontification.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Views\Statut.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Statut.Designer.cs">
+      <DependentUpon>Statut.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Repport\PrintClient.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>PrintClient.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Repport\printComandByNum.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>printComandByNum.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Repport\PrintCommand.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>PrintCommand.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Repport\PrintFournisseurs.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>PrintFournisseurs.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Repport\PrintProduis.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>PrintProduis.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Repport\Views Repport\PrintCommande.resx">
+      <DependentUpon>PrintCommande.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Repport\Views Repport\ImprimmerFournisseur.resx">
+      <DependentUpon>ImprimmerFournisseur.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Repport\Views Repport\ImprimmerProduit.resx">
+      <DependentUpon>ImprimmerProduit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Repport\PrintByCNIE.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>PrintByCNIE.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Repport\PrintByIdentification.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>PrintByIdentification.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Repport\PrintFournisseurByCnie.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>PrintFournisseurByCnie.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Repport\Views Repport\PrintListClient.resx">
+      <DependentUpon>PrintListClient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Afficher-Image.resx">
+      <DependentUpon>Afficher-Image.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Ajouter-Client.resx">
+      <DependentUpon>Ajouter-Client.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\AjouterCommande.resx">
+      <DependentUpon>AjouterCommande.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\AjouterProduit.resx">
+      <DependentUpon>AjouterProduit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Autontification.resx">
+      <DependentUpon>Autontification.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Categorie.resx">
+      <DependentUpon>Categorie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Dashboard.resx">
+      <DependentUpon>Dashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\DetailsFournisseur.resx">
+      <DependentUpon>DetailsFournisseur.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Fornisseur.resx">
+      <DependentUpon>Fornisseur.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\ListeClients.resx">
+      <DependentUpon>ListeClients.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\ListeFornisseurs.resx">
+      <DependentUpon>ListeFornisseurs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\ListeProduit.resx">
+      <DependentUpon>ListeProduit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\MenuGeneralAdmin.resx">
+      <DependentUpon>MenuGeneralAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Statut.resx">
+      <DependentUpon>Statut.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Refresh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Refresh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrr.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\digital-art-lion4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-eye-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vision.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hidden.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

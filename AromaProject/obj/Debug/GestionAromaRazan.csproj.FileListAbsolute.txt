@@ -1,0 +1,81 @@
+C:\Users\xYz Monde\source\repos\GestionAromaRazan\GestionAromaRazan\bin\Debug\GestionAromaRazan.exe.config
+C:\Users\xYz Monde\source\repos\GestionAromaRazan\GestionAromaRazan\bin\Debug\GestionAromaRazan.exe
+C:\Users\xYz Monde\source\repos\GestionAromaRazan\GestionAromaRazan\bin\Debug\GestionAromaRazan.pdb
+C:\Users\xYz Monde\source\repos\GestionAromaRazan\GestionAromaRazan\obj\Debug\GestionAromaRazan.csprojAssemblyReference.cache
+C:\Users\xYz Monde\source\repos\GestionAromaRazan\GestionAromaRazan\obj\Debug\GestionAromaRazan.Form1.resources
+C:\Users\xYz Monde\source\repos\GestionAromaRazan\GestionAromaRazan\obj\Debug\GestionAromaRazan.Properties.Resources.resources
+C:\Users\xYz Monde\source\repos\GestionAromaRazan\GestionAromaRazan\obj\Debug\GestionAromaRazan.csproj.GenerateResource.cache
+C:\Users\xYz Monde\source\repos\GestionAromaRazan\GestionAromaRazan\obj\Debug\GestionAromaRazan.csproj.CoreCompileInputs.cache
+C:\Users\xYz Monde\source\repos\GestionAromaRazan\GestionAromaRazan\obj\Debug\GestionAromaRazan.exe
+C:\Users\xYz Monde\source\repos\GestionAromaRazan\GestionAromaRazan\obj\Debug\GestionAromaRazan.pdb
+C:\Users\xYz Monde\Desktop\projets Aroma Razan\GestionAromaRazan\GestionAromaRazan\bin\Debug\GestionAromaRazan.exe.config
+C:\Users\xYz Monde\Desktop\projets Aroma Razan\GestionAromaRazan\GestionAromaRazan\bin\Debug\GestionAromaRazan.exe
+C:\Users\xYz Monde\Desktop\projets Aroma Razan\GestionAromaRazan\GestionAromaRazan\bin\Debug\GestionAromaRazan.pdb
+C:\Users\xYz Monde\Desktop\projets Aroma Razan\GestionAromaRazan\GestionAromaRazan\obj\Debug\GestionAromaRazan.csprojAssemblyReference.cache
+C:\Users\xYz Monde\Desktop\projets Aroma Razan\GestionAromaRazan\GestionAromaRazan\obj\Debug\GestionAromaRazan.Form1.resources
+C:\Users\xYz Monde\Desktop\projets Aroma Razan\GestionAromaRazan\GestionAromaRazan\obj\Debug\GestionAromaRazan.Properties.Resources.resources
+C:\Users\xYz Monde\Desktop\projets Aroma Razan\GestionAromaRazan\GestionAromaRazan\obj\Debug\GestionAromaRazan.csproj.GenerateResource.cache
+C:\Users\xYz Monde\Desktop\projets Aroma Razan\GestionAromaRazan\GestionAromaRazan\obj\Debug\GestionAromaRazan.csproj.CoreCompileInputs.cache
+C:\Users\xYz Monde\Desktop\projets Aroma Razan\GestionAromaRazan\GestionAromaRazan\obj\Debug\GestionAromaRazan.exe
+C:\Users\xYz Monde\Desktop\projets Aroma Razan\GestionAromaRazan\GestionAromaRazan\obj\Debug\GestionAromaRazan.pdb
+C:\Users\xYz Monde\Desktop\projets Aroma Razan\GestionAromaRazan\GestionAromaRazan\obj\Debug\GestionAromaRazan.Add_Produit.resources
+C:\Users\xYz Monde\Desktop\projets Aroma Razan\Version\GestionAromaRazan - v3 - guna\GestionAromaRazan\obj\Debug\GestionAromaRazan.csprojAssemblyReference.cache
+C:\Users\xYz Monde\Desktop\projets Aroma Razan\Version\GestionAromaRazan - v3 - guna\GestionAromaRazan\obj\Debug\GestionAromaRazan.Add_Produit.resources
+C:\Users\xYz Monde\Desktop\projets Aroma Razan\Version\GestionAromaRazan - v3 - guna\GestionAromaRazan\obj\Debug\GestionAromaRazan.Views.Autontification.resources
+C:\Users\xYz Monde\Desktop\projets Aroma Razan\Version\GestionAromaRazan - v3 - guna\GestionAromaRazan\obj\Debug\GestionAromaRazan.Form1.resources
+C:\Users\xYz Monde\Desktop\projets Aroma Razan\Version\GestionAromaRazan - v3 - guna\GestionAromaRazan\obj\Debug\GestionAromaRazan.Properties.Resources.resources
+C:\Users\xYz Monde\Desktop\projets Aroma Razan\Version\GestionAromaRazan - v3 - guna\GestionAromaRazan\obj\Debug\GestionAromaRazan.csproj.GenerateResource.cache
+C:\Users\xYz Monde\Desktop\projets Aroma Razan\Version\GestionAromaRazan - v3 - guna\GestionAromaRazan\obj\Debug\GestionAromaRazan.csproj.CoreCompileInputs.cache
+C:\Users\xYz Monde\Desktop\projets Aroma Razan\Version\GestionAromaRazan - v3 - guna\GestionAromaRazan\obj\Debug\GestionAromaRazan.exe
+C:\Users\xYz Monde\Desktop\projets Aroma Razan\Version\GestionAromaRazan - v3 - guna\GestionAromaRazan\obj\Debug\GestionAromaRazan.pdb
+C:\Users\xYz Monde\Desktop\projets Aroma Razan\Version\GestionAromaRazan - v3 - guna\GestionAromaRazan\bin\Debug\GestionAromaRazan.exe.config
+C:\Users\xYz Monde\Desktop\projets Aroma Razan\Version\GestionAromaRazan - v3 - guna\GestionAromaRazan\bin\Debug\GestionAromaRazan.exe
+C:\Users\xYz Monde\Desktop\projets Aroma Razan\Version\GestionAromaRazan - v3 - guna\GestionAromaRazan\bin\Debug\GestionAromaRazan.pdb
+C:\Users\xYz Monde\Desktop\projets Aroma Razan\Version\GestionAromaRazan - v3 - guna\GestionAromaRazan\bin\Debug\Guna.UI.dll
+C:\Users\xYz Monde\Desktop\projets Aroma Razan\Version\GestionAromaRazan - v3 - guna\GestionAromaRazan\bin\Debug\Guna.UI2.dll
+C:\Users\xYz Monde\Desktop\projets Aroma Razan\Version\GestionAromaRazan - v3 - guna\GestionAromaRazan\obj\Debug\GestionAromaRazan.csproj.CopyComplete
+C:\Users\xYz Monde\Desktop\projets Aroma Razan\Version\GestionAromaRazan - v4 - guna\GestionAromaRazan\bin\Debug\GestionAromaRazan.exe.config
+C:\Users\xYz Monde\Desktop\projets Aroma Razan\Version\GestionAromaRazan - v4 - guna\GestionAromaRazan\bin\Debug\GestionAromaRazan.exe
+C:\Users\xYz Monde\Desktop\projets Aroma Razan\Version\GestionAromaRazan - v4 - guna\GestionAromaRazan\bin\Debug\GestionAromaRazan.pdb
+C:\Users\xYz Monde\Desktop\projets Aroma Razan\Version\GestionAromaRazan - v4 - guna\GestionAromaRazan\bin\Debug\Guna.UI.dll
+C:\Users\xYz Monde\Desktop\projets Aroma Razan\Version\GestionAromaRazan - v4 - guna\GestionAromaRazan\bin\Debug\Guna.UI2.dll
+C:\Users\xYz Monde\Desktop\projets Aroma Razan\Version\GestionAromaRazan - v4 - guna\GestionAromaRazan\obj\Debug\GestionAromaRazan.csprojAssemblyReference.cache
+C:\Users\xYz Monde\Desktop\projets Aroma Razan\Version\GestionAromaRazan - v4 - guna\GestionAromaRazan\obj\Debug\GestionAromaRazan.Add_Produit.resources
+C:\Users\xYz Monde\Desktop\projets Aroma Razan\Version\GestionAromaRazan - v4 - guna\GestionAromaRazan\obj\Debug\GestionAromaRazan.Views.Autontification.resources
+C:\Users\xYz Monde\Desktop\projets Aroma Razan\Version\GestionAromaRazan - v4 - guna\GestionAromaRazan\obj\Debug\GestionAromaRazan.Form1.resources
+C:\Users\xYz Monde\Desktop\projets Aroma Razan\Version\GestionAromaRazan - v4 - guna\GestionAromaRazan\obj\Debug\GestionAromaRazan.Properties.Resources.resources
+C:\Users\xYz Monde\Desktop\projets Aroma Razan\Version\GestionAromaRazan - v4 - guna\GestionAromaRazan\obj\Debug\GestionAromaRazan.csproj.GenerateResource.cache
+C:\Users\xYz Monde\Desktop\projets Aroma Razan\Version\GestionAromaRazan - v4 - guna\GestionAromaRazan\obj\Debug\GestionAromaRazan.csproj.CoreCompileInputs.cache
+C:\Users\xYz Monde\Desktop\projets Aroma Razan\Version\GestionAromaRazan - v4 - guna\GestionAromaRazan\obj\Debug\GestionAromaRazan.csproj.CopyComplete
+C:\Users\xYz Monde\Desktop\projets Aroma Razan\Version\GestionAromaRazan - v4 - guna\GestionAromaRazan\obj\Debug\GestionAromaRazan.exe
+C:\Users\xYz Monde\Desktop\projets Aroma Razan\Version\GestionAromaRazan - v4 - guna\GestionAromaRazan\obj\Debug\GestionAromaRazan.pdb
+C:\Users\xYz Monde\Desktop\projets Aroma Razan\Version\GestionAromaRazan - v4 - guna\GestionAromaRazan\obj\Debug\GestionAromaRazan.MenuGeneralAdmin.resources
+C:\Users\xYz Monde\Desktop\projets Aroma Razan\Version\GestionAromaRazan - v4 - guna\GestionAromaRazan\obj\Debug\GestionAromaRazan.Views.AjouterProduit.resources
+C:\Users\xYz Monde\Desktop\projets Aroma Razan\Version\GestionAromaRazan - v4 - guna\GestionAromaRazan\obj\Debug\GestionAromaRazan.Views.ListeProduit.resources
+C:\Users\ADMIN\Downloads\Project Aroma\Aroma razan\GestionAromaRazan - v4 - guna\GestionAromaRazan\bin\Debug\GestionAromaRazan.exe.config
+C:\Users\ADMIN\Downloads\Project Aroma\Aroma razan\GestionAromaRazan - v4 - guna\GestionAromaRazan\obj\Debug\GestionAromaRazan.exe
+C:\Users\ADMIN\Downloads\Project Aroma\Aroma razan\GestionAromaRazan - v4 - guna\GestionAromaRazan\obj\Debug\GestionAromaRazan.pdb
+C:\Users\ADMIN\Downloads\Project Aroma\Aroma razan\GestionAromaRazan - v4 - guna\GestionAromaRazan\bin\Debug\GestionAromaRazan.exe
+C:\Users\ADMIN\Downloads\Project Aroma\Aroma razan\GestionAromaRazan - v4 - guna\GestionAromaRazan\bin\Debug\GestionAromaRazan.pdb
+C:\Users\ADMIN\Downloads\Project Aroma\Aroma razan\GestionAromaRazan - v4 - guna\GestionAromaRazan\bin\Debug\mscorlib.dll
+C:\Users\ADMIN\Downloads\Project Aroma\Aroma razan\GestionAromaRazan - v4 - guna\GestionAromaRazan\bin\Debug\System.Net.Http.dll
+C:\Users\ADMIN\Downloads\Project Aroma\Aroma razan\GestionAromaRazan - v4 - guna\GestionAromaRazan\bin\Debug\System.Net.Http.xml
+C:\Users\ADMIN\Downloads\Project Aroma\Aroma razan\GestionAromaRazan - v4 - guna\GestionAromaRazan\bin\Debug\ar\mscorlib.resources.dll
+C:\Users\ADMIN\Downloads\Project Aroma\Aroma razan\GestionAromaRazan - v4 - guna\GestionAromaRazan\bin\Debug\fr\mscorlib.resources.dll
+C:\Users\ADMIN\Downloads\Project Aroma\Aroma razan\GestionAromaRazan - v4 - guna\GestionAromaRazan\bin\Debug\normidna.nlp
+C:\Users\ADMIN\Downloads\Project Aroma\Aroma razan\GestionAromaRazan - v4 - guna\GestionAromaRazan\bin\Debug\normnfc.nlp
+C:\Users\ADMIN\Downloads\Project Aroma\Aroma razan\GestionAromaRazan - v4 - guna\GestionAromaRazan\bin\Debug\normnfd.nlp
+C:\Users\ADMIN\Downloads\Project Aroma\Aroma razan\GestionAromaRazan - v4 - guna\GestionAromaRazan\bin\Debug\normnfkc.nlp
+C:\Users\ADMIN\Downloads\Project Aroma\Aroma razan\GestionAromaRazan - v4 - guna\GestionAromaRazan\bin\Debug\normnfkd.nlp
+C:\Users\ADMIN\Downloads\Project Aroma\Aroma razan\GestionAromaRazan - v4 - guna\GestionAromaRazan\obj\Debug\GestionAromaRazan.csprojResolveAssemblyReference.cache
+C:\Users\ADMIN\Downloads\Project Aroma\Aroma razan\GestionAromaRazan - v4 - guna\GestionAromaRazan\obj\Debug\GestionAromaRazan.Add_Produit.resources
+C:\Users\ADMIN\Downloads\Project Aroma\Aroma razan\GestionAromaRazan - v4 - guna\GestionAromaRazan\obj\Debug\GestionAromaRazan.Views.AjouterProduit.resources
+C:\Users\ADMIN\Downloads\Project Aroma\Aroma razan\GestionAromaRazan - v4 - guna\GestionAromaRazan\obj\Debug\GestionAromaRazan.Views.Autontification.resources
+C:\Users\ADMIN\Downloads\Project Aroma\Aroma razan\GestionAromaRazan - v4 - guna\GestionAromaRazan\obj\Debug\GestionAromaRazan.Form1.resources
+C:\Users\ADMIN\Downloads\Project Aroma\Aroma razan\GestionAromaRazan - v4 - guna\GestionAromaRazan\obj\Debug\GestionAromaRazan.Properties.Resources.resources
+C:\Users\ADMIN\Downloads\Project Aroma\Aroma razan\GestionAromaRazan - v4 - guna\GestionAromaRazan\obj\Debug\GestionAromaRazan.Views.ListeProduit.resources
+C:\Users\ADMIN\Downloads\Project Aroma\Aroma razan\GestionAromaRazan - v4 - guna\GestionAromaRazan\obj\Debug\GestionAromaRazan.MenuGeneralAdmin.resources
+C:\Users\ADMIN\Downloads\Project Aroma\Aroma razan\GestionAromaRazan - v4 - guna\GestionAromaRazan\obj\Debug\GestionAromaRazan.csproj.GenerateResource.Cache
+C:\Users\ADMIN\Documents\Visual Studio 2012\Projects\GestionAromaRazan - v4 - guna\GestionAromaRazan\bin\Debug\GestionAromaRazan.exe.config
+C:\Users\ADMIN\Documents\Visual Studio 2012\Projects\GestionAromaRazan - v4 - guna\GestionAromaRazan\obj\Debug\GestionAromaRazan.exe
+C:\Users\ADMIN\Documents\Visual Studio 2012\Projects\GestionAromaRazan - v4 - guna\GestionAromaRazan\obj\Debug\GestionAromaRazan.pdb
